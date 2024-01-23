@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&family=Varela+Round&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #4f517c;
+  color: rgb(228, 242, 250);
+}
+
+.navbar {
+    font-family: 'Young Serif', serif; 
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color:rgb(119 141 220);
+    color: rgb(219, 226, 233);
+    align-items: center;
+}
+
+.navbar ul p img {
+    width: 40px;
+    padding: 0 12px;
+  }
+
+.logo {
+    display: flex;
+    font-size: 1rem;
+    font-weight: "800";
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header {
+   display: flex;
+   font-size: 15px;
+   font-weight: "400";
+   padding: 22px 0;
+   margin: 12px;
+}
+
+.header:hover{
+   display: flex;
+   font-size: 15px;
+   font-weight: "400";
+    border-bottom: 2px solid  #a37b40;
+    margin: 12px;
+    cursor: pointer;
+    padding: 22px 0;
+    text-decoration: none;
+}
+
+.navbar input {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    width: 53vw;
+    margin: 10px;
+    height: 40px;
+    border-radius: 14vh;
+    text-align: center;
+}
+
+.language{
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.section {
+  padding: 5px 15px;
+  text-decoration: none;
+  list-style: none;
+  gap: 15px;
+  cursor: pointer;
+}
+
+#myProgressBar{
+  width: 90vw;
+  cursor: pointer;
+  padding-bottom: 0px;
+}
+
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
